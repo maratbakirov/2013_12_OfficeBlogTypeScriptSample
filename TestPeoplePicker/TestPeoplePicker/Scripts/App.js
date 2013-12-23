@@ -1,5 +1,6 @@
-﻿'use strict';
-
+///<reference path="typings/sharepoint/SharePoint.d.ts" />
+///<reference path="typings/jquery/jquery.d.ts" />
+'use strict';
 var context = SP.ClientContext.get_current();
 var user = context.get_web().get_currentUser();
 

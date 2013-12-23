@@ -54,8 +54,9 @@
     <None Include="Scripts\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{2947be39-1c67-47d6-8882-e2a388e3903e}</SharePointProjectItemId>
     </None>
-    <Content Include="Scripts\Elements.xml" />
     <Content Include="Scripts\App.js" />
+    <Content Include="Scripts\Elements.xml" />
+    <Content Include="Scripts\App_1.js" />
     <Content Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
@@ -97,6 +98,8 @@
     </AppManifestFile>
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="Scripts\App.ts" />
+    <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\sharepoint\SharePoint.d.ts" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
