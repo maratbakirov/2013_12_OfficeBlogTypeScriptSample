@@ -8,7 +8,7 @@
 >
   <Properties>
     <Title>TestPeoplePicker</Title>
-    <StartPage>~appWebUrl/Pages/Default.aspx?{StandardTokens}</StartPage>
+    <StartPage>~appWebUrl/Pages/Default1.aspx?{StandardTokens}</StartPage>
   </Properties>
 
   <AppPrincipal>

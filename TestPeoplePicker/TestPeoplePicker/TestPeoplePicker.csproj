@@ -47,18 +47,20 @@
     <None Include="Pages\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{9bd6a62b-0886-4742-bb06-424906e5748b}</SharePointProjectItemId>
     </None>
+    <Content Include="Pages\Default1.aspx" />
     <Content Include="Pages\Elements.xml" />
     <Content Include="Pages\Default.aspx" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\App.js.map" />
+    <None Include="Scripts\App1.js.map" />
     <None Include="Scripts\jquery-1.9.1.min.map" />
     <None Include="Scripts\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{2947be39-1c67-47d6-8882-e2a388e3903e}</SharePointProjectItemId>
     </None>
     <Content Include="Scripts\App.js" />
+    <Content Include="Scripts\App1.js" />
     <Content Include="Scripts\Elements.xml" />
-    <Content Include="Scripts\App_1.js" />
     <Content Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
@@ -100,6 +102,7 @@
     </AppManifestFile>
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="Scripts\App1.ts" />
     <TypeScriptCompile Include="Scripts\App.ts" />
     <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\sharepoint\SharePoint.d.ts" />

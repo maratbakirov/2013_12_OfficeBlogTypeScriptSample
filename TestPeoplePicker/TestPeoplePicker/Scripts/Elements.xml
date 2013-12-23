@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
   <Module Name="Scripts">
-    <File Path="Scripts\App_1.js" Url="Scripts/App_1.js" ReplaceContent="TRUE" />
     <File Path="Scripts\jquery-1.9.1.min.map" Url="Scripts/jquery-1.9.1.min.map" ReplaceContent="TRUE" />
     <File Path="Scripts\jquery-1.9.1.min.js" Url="Scripts/jquery-1.9.1.min.js" ReplaceContent="TRUE" />
     <File Path="Scripts\jquery-1.9.1.js" Url="Scripts/jquery-1.9.1.js" ReplaceContent="TRUE" />
@@ -11,5 +10,8 @@
     <File Path="Scripts\typings\jquery\jquery.d.ts" Url="Scripts/typings/jquery/jquery.d.ts" ReplaceContent="TRUE" />
     <File Path="Scripts\App.js" Url="Scripts/App.js" ReplaceContent="TRUE" />
     <File Path="Scripts\App.js.map" Url="Scripts/App.js.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\App1.ts" Url="Scripts/App1.ts" ReplaceContent="TRUE" />
+    <File Path="Scripts\App1.js" Url="Scripts/App1.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\App1.js.map" Url="Scripts/App1.js.map" ReplaceContent="TRUE" />
   </Module>
 </Elements>
