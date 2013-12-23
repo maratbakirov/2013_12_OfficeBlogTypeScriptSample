@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="4f3b7463-8c8c-4817-b72d-5ad5e026ae8f" 
+        solutionId="4f3b7463-8c8c-4817-b72d-5ad5e026ae8f" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="TestPeoplePicker"
+        sharePointProductVersion="15.0">
+  <features>
+        <featureReference itemId="5b0b37ea-3d81-4c01-b005-ae47ab6b7cee" />
+  </features>
+</package>

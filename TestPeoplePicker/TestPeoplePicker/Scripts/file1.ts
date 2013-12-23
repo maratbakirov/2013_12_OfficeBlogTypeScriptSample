@@ -1,0 +1,4 @@
+module _ {
+    class xx {
+    }
+} 
