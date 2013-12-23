@@ -25,3 +25,4 @@ function onGetUserNameSuccess() {
 function onGetUserNameFail(sender, args) {
     alert('Failed to get user name. Error:' + args.get_message());
 }
+//# sourceMappingURL=App.js.map

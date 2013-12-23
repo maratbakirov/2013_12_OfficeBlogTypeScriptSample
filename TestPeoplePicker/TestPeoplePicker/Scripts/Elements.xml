@@ -10,5 +10,6 @@
     <File Path="Scripts\App.ts" Url="Scripts/App.ts" ReplaceContent="TRUE" />
     <File Path="Scripts\typings\jquery\jquery.d.ts" Url="Scripts/typings/jquery/jquery.d.ts" ReplaceContent="TRUE" />
     <File Path="Scripts\App.js" Url="Scripts/App.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\App.js.map" Url="Scripts/App.js.map" ReplaceContent="TRUE" />
   </Module>
 </Elements>
