@@ -1,18 +1,7 @@
-///<reference path="typings/sharepoint/SharePoint.d.ts" />
-///<reference path="typings/jquery/jquery.d.ts" />
-
 module App1 {
-    var queryString = parseQueryString();
-    var isIframe = queryString['DisplayMode'] == 'iframe'
-    var spHostUrl = queryString['SPHostUrl'];
-    var editmode = Number(queryString['editmode']);
-    var includeDetails = queryString['boolProp'] == 'true';
-
     m$.ready(() => {
         loadPeoplePicker('peoplePickerDiv');
-
     });
-
 
     //Load the people picker 
     function loadPeoplePicker(peoplePickerElementId: string) {
@@ -48,23 +37,6 @@ module App1 {
         // Get user keys.
         $('#userKeys').html(keys);
 
-
-    }
-
-
-    function parseQueryString() {
-        var result = {};
-        var qs = document.location.search.split('?')[1];
-        if (qs) {
-            var parts = qs.split('&');
-            for (var i = 0; i < parts.length; i++) {
-                if (parts[i]) {
-                    var pair = parts[i].split('=');
-                    result[pair[0]] = decodeURIComponent(pair[1]);
-                }
-            }
-        }
-        return result;
     }
 }
 
